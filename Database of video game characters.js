@@ -3,3 +3,4 @@ CREATE DATABASE first_database;
 CREATE DATABASE second_database;
 \l
 \c second_database; // connected to second database.
+CREATE TABLE first_table();  
