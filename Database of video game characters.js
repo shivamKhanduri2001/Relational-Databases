@@ -5,3 +5,4 @@ CREATE DATABASE second_database;
 \c second_database; // connected to second database.
 CREATE TABLE first_table();  
 \d // display second database.
+\d second_table;
