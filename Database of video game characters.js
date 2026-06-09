@@ -7,3 +7,4 @@ CREATE TABLE first_table();
 \d // display second database.
 CREATE TABLE second_table();
 \d second_table;
+ALTER TABLE  second_table ADD COLUMN first_column INT;
