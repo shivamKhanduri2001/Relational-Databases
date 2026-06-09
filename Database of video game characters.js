@@ -9,3 +9,4 @@ CREATE TABLE second_table();
 \d second_table;
 ALTER TABLE  second_table ADD COLUMN first_column INT;
 ALTER TABLE second_table ADD COLUMN id INT;
+ALTER TABLE second_table ADD COLUMN age INT;
