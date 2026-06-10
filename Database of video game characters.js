@@ -13,3 +13,5 @@ ALTER TABLE second_table ADD COLUMN age INT;
 ALTER TABLE second_table DROP COLUMN age;
 ALTER TABLE second_table ADD COLUMN name VARCHAR(30);
 \d second_table;
+ALTER TABLE second_table RENAME COLUMN name TO username;
+\d second_table;
