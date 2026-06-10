@@ -22,3 +22,7 @@ INSERT INTO second_table(id, username) VALUES(3, 'Luigi');
 SELECT* FROM second_table;
 DELETE FROM second_table WHERE username='Luigi';
 SELECT * FROM second_table;
+DELETE FROM second_table WHERE username='Shivam';
+SELECT *FROM second_table;
+DELETE FROM second_table WHERE username='Mario';
+SELECT *FROM second_table;
