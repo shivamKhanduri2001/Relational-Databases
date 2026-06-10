@@ -30,3 +30,5 @@ ALTER TABLE second_table DROP username;
 ALTER TABLE second_table DROP id;
 DROP TABLE second_table;
 DROP TABLE first_table;
+ALTER DATABASE first_database RENAME TO mario_database;
+\c mario_database;
