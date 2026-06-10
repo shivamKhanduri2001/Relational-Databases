@@ -28,3 +28,5 @@ DELETE FROM second_table WHERE username='Mario';
 SELECT *FROM second_table;
 ALTER TABLE second_table DROP username;
 ALTER TABLE second_table DROP id;
+DROP TABLE second_table;
+DROP TABLE first_table;
