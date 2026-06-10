@@ -18,3 +18,5 @@ ALTER TABLE second_table RENAME COLUMN name TO username;
 INSERT INTO second_table(id, username) VALUES(1,'Shivam');
 SELECT * FROM second_table;
 INSERT INTO second_table(id,username) VALUES(2,'Mario');
+INSERT INTO second_table(id, username) VALUES(3, 'Luigi');
+SELECT* FROM second_table;
