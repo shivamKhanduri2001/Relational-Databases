@@ -1,10 +1,10 @@
 CREATE DATABASE first_database;
-\l //to see the list or database
+\l
 CREATE DATABASE second_database;
 \l
-\c second_database; // connected to second database.
+\c second_database; 
 CREATE TABLE first_table();  
-\d // display second database.
+\d
 CREATE TABLE second_table();
 \d second_table;
 ALTER TABLE  second_table ADD COLUMN first_column INT;
@@ -20,3 +20,5 @@ SELECT * FROM second_table;
 INSERT INTO second_table(id,username) VALUES(2,'Mario');
 INSERT INTO second_table(id, username) VALUES(3, 'Luigi');
 SELECT* FROM second_table;
+DELETE FROM second_table WHERE username='Luigi';
+SELECT * FROM second_table;
