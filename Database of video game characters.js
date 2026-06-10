@@ -15,3 +15,5 @@ ALTER TABLE second_table ADD COLUMN name VARCHAR(30);
 \d second_table;
 ALTER TABLE second_table RENAME COLUMN name TO username;
 \d second_table;
+INSERT INTO second_table(id, username) VALUES(1,'Shivam');
+SELECT columns FROM second_table;
