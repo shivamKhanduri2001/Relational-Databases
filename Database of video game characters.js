@@ -32,3 +32,4 @@ DROP TABLE second_table;
 DROP TABLE first_table;
 ALTER DATABASE first_database RENAME TO mario_database;
 \c mario_database;
+CREATE TABLE characters();
