@@ -37,3 +37,4 @@ ALTER TABLE characters ADD COLUMN character_id INT;
 \d characters
 ALTER TABLE characters ADD COLUMN name VARCHAR(30);
 ALTER TABLE characters ADD COLUMN homeland VARCHAR(30);
+ALTER TABLE characters ADD COLUMN favorite_color VARCHAR(30);
