@@ -40,3 +40,4 @@ ALTER TABLE characters ADD COLUMN homeland VARCHAR(30);
 ALTER TABLE characters ADD COLUMN favorite_color VARCHAR(30);
 INSERT INTO characters VALUES (1, 'Mario', 'Mushroom Kingdom', 'Red');
 SELECT * FROM characters;
+INSERT INTO characters VALUES (2, 'Luigi', 'Mushroom Kingdom', 'Green');
