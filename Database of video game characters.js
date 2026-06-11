@@ -44,5 +44,7 @@ INSERT INTO characters VALUES (2, 'Luigi', 'Mushroom Kingdom', 'Green');
 SELECT*FROM characters;
 INSERT INTO characters (character_id, name, homeland, favorite_color)
 VALUES (3, 'Peach', 'Mushroom Kingdom', 'Pink');
-INSERT INTO characters VALUES (4,'Toad','Mushroom Kingdom','Blue');
-INSERT INTO characters VALUES (5,'Bowser','Dark Land','Red');
+INSERT INTO characters VALUES (4, 'Toad', 'Mushroom Kingdom', 'Blue');
+INSERT INTO characters VALUES (5, 'Bowser', 'Dark Land', 'Red');
+SELECT *FROM characters;
+INSERT INTO characters VALUES(6,'Daisy', 'Sarasaland', 'Yellow');
