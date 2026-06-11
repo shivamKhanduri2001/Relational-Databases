@@ -41,3 +41,6 @@ ALTER TABLE characters ADD COLUMN favorite_color VARCHAR(30);
 INSERT INTO characters VALUES (1, 'Mario', 'Mushroom Kingdom', 'Red');
 SELECT * FROM characters;
 INSERT INTO characters VALUES (2, 'Luigi', 'Mushroom Kingdom', 'Green');
+SELECT*FROM characters;
+INSERT INTO characters (character_id, name, homeland, favorite_color)
+VALUES (3, 'Peach', 'Mushroom Kingdom', 'Pink');
