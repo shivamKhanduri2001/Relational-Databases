@@ -71,3 +71,4 @@ ALTER TABLE more_info
 ADD COLUMN more_info_id INT;
 ALTER TABLE more_info ADD PRIMARY KEY (more_info_id);
 ALTER TABLE more_info ADD COLUMN birthday DATE;
+ALTER TABLE more_info ADD COLUMN height NUMERIC(4,1);
