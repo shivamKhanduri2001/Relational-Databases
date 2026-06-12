@@ -50,3 +50,4 @@ SELECT *FROM characters;
 INSERT INTO characters VALUES(6, 'Daisy', 'Sarasaland', 'Yellow');
 INSERT INTO characters VALUES (7, 'Yoshi', 'Dinosaur Land', 'Green');
 SELECT * FROM characters;
+UPDATE characters SET favorite_color = 'Orange' WHERE name = 'Daisy';
