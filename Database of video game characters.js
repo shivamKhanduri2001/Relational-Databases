@@ -74,3 +74,4 @@ ALTER TABLE more_info ADD COLUMN birthday DATE;
 ALTER TABLE more_info ADD COLUMN height NUMERIC(4,1);
 ALTER TABLE more_info ADD COLUMN weight NUMERIC(4,1);
 ALTER TABLE more_info ADD COLUMN character_id INT;
+ALTER TABLE more_info ADD FOREIGN KEY (character_id) REFERENCES characters(character_id);
