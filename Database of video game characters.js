@@ -56,3 +56,6 @@ UPDATE characters SET name = 'Toadstool' WHERE name = 'Toad';
 SELECT * FROM characters;
 UPDATE characters SET name= 'Super Mario' WHERE name= 'Mario';
 SELECT * FROM characters;
+UPDATE characters
+SET favorite_color = 'Blue'
+WHERE name = 'Toadstool';
