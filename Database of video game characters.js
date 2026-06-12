@@ -79,3 +79,4 @@ INSERT INTO more_info (more_info_id, birthday, height, weight, character_id)
 VALUES (1, '1981-07-09', 155.0, 64.5, 1);
 INSERT INTO more_info VALUES (2,'1983-07-14',175.0,48.8,2);
 INSERT INTO more_info VALUES (4,'1950-01-10',66.0,35.6,4);
+INSERT INTO more_info VALUES (5, '1990-10-29', 258.0, 300.0, 5);
