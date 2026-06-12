@@ -75,3 +75,5 @@ ALTER TABLE more_info ADD COLUMN height NUMERIC(4,1);
 ALTER TABLE more_info ADD COLUMN weight NUMERIC(4,1);
 ALTER TABLE more_info ADD COLUMN character_id INT;
 ALTER TABLE more_info ADD FOREIGN KEY (character_id) REFERENCES characters(character_id);
+INSERT INTO more_info (more_info_id, birthday, height, weight, character_id)
+VALUES (1, '1981-07-09', 155.0, 64.5, 1);
