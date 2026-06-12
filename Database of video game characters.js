@@ -64,4 +64,5 @@ UPDATE characters SET homeland = 'Koopa Kingdom' WHERE name = 'Bowser';
 SELECT * FROM characters;
 SELECT *FROM characters ORDER BY name ASC;
 ALTER TABLE characters ADD PRIMARY KEY (name);
-ALTER TABLE characters DROP CONSTRAINTS characters_pkey;
+ALTER TABLE characters DROP CONSTRAINT characters_pkey;
+ALTER TABLE characters ADD PRIMARY KEY (character_id);
