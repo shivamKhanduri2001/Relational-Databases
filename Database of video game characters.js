@@ -48,3 +48,4 @@ INSERT INTO characters VALUES (4, 'Toad', 'Mushroom Kingdom', 'Blue');
 INSERT INTO characters VALUES (5, 'Bowser', 'Dark Land', 'Red');
 SELECT *FROM characters;
 INSERT INTO characters VALUES(6,'Daisy', 'Sarasaland', 'Yellow');
+INSERT INTO characters VALUES (7,'Yoshi', 'Dinosaur Land', 'Green');
