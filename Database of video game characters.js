@@ -66,3 +66,4 @@ SELECT *FROM characters ORDER BY name ASC;
 ALTER TABLE characters ADD PRIMARY KEY (name);
 ALTER TABLE characters DROP CONSTRAINT characters_pkey;
 ALTER TABLE characters ADD PRIMARY KEY (character_id);
+CREATE TABLE more_info();
