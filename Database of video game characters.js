@@ -59,3 +59,4 @@ SELECT * FROM characters;
 UPDATE characters
 SET favorite_color = 'Blue'
 WHERE name = 'Toadstool';
+UPDATE characters SET favorite_color = 'Black' WHERE name = 'Bowser';
