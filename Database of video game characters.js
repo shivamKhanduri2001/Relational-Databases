@@ -67,3 +67,5 @@ ALTER TABLE characters ADD PRIMARY KEY (name);
 ALTER TABLE characters DROP CONSTRAINT characters_pkey;
 ALTER TABLE characters ADD PRIMARY KEY (character_id);
 CREATE TABLE more_info();
+ALTER TABLE more_info
+ADD COLUMN more_info_id INT;
