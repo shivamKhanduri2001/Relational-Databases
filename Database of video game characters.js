@@ -60,3 +60,4 @@ UPDATE characters
 SET favorite_color = 'Blue'
 WHERE name = 'Toadstool';
 UPDATE characters SET favorite_color = 'Black' WHERE name = 'Bowser';
+UPDATE characters SET homeland = 'Koopa Kingdom' WHERE name = 'Bowser';
